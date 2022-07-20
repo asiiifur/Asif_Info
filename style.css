@@ -800,3 +800,103 @@ footer span a:hover {
         line-height: 38px;
     }
 }
+
+/* ===============Academic section styling========== */
+.academic{
+    background: #111;
+}
+.academic .title{
+    color: #fff;
+}
+.academic .title::before{
+    background: #fff ;
+}
+.academic .title::after{
+    content: "My Education";
+    color: tomato;
+    background: #111 ;
+}
+.academic .max-width .academic-content{
+    width: 100%;
+    align-items: center;
+    margin-left: 0px;
+}
+h6{
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    padding:5px 10px ;
+    border-bottom: 1px solid #333;
+}
+.academic .academic-content{
+    margin: 10px 150px;
+}
+.academic .academic-content a{
+    font-size: 20px;
+    border: 1px solid tomato;
+    display: block;
+    background: tomato;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 9px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.academic .academic-content a i{
+    float: right;
+    margin-top: 3px;
+    font-size: 30px;
+}
+
+.academic .academic-content .ss,
+.academic .academic-content .dip,
+.academic .academic-content .bs{
+    display: none;
+}
+
+.academic .academic-content .ssc,
+.academic .academic-content .diploma,
+.academic .academic-content .bsc{
+    display: flex;
+    background: #363837;
+}
+.academic .academic-content .ss .column  #name span,
+.academic .academic-content .dip .column  #name span,
+.academic .academic-content .bs .column  #name span{
+    margin-left: 10em;
+}
+.academic .academic-content .ss .column  #group span,
+.academic .academic-content .dip .column  #group span,
+.academic .academic-content .bs .column  #group span{
+    margin-left: 16.3em;
+}
+.academic .academic-content .ss .column  #year span,
+.academic .academic-content .dip .column  #year span,
+.academic .academic-content .bs .column  #year span{
+    margin-left: 11.8em;
+}
+.academic .academic-content .ss .column  #gpa span,
+.academic .academic-content .dip .column  #gpa span,
+.academic .academic-content .bs .column  #gpa span{
+    margin-left: 16.5em;
+}
+.academic .academic-content .diploma{
+    display: flex;
+    background: #363837;
+}
+.academic .academic-content .diploma .left{
+    width:30% ;
+}
+.academic .academic-content .diploma .right{
+    width: 70%;
+}
+.academic .academic-content .ssc{
+    display: flex;
+    background: #363837;
+}
+.academic .academic-content .ssc .left{
+    width:30% ;
+}
+.academic .academic-content .ssc .right{
+    width: 70%;
+}
