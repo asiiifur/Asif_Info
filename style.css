@@ -813,7 +813,7 @@ footer span a:hover {
 }
 .academic .title::after{
     content: "My Education";
-    color: tomato;
+   
     background: #111 ;
 }
 .academic .max-width .academic-content{
@@ -833,9 +833,9 @@ h6{
 }
 .academic .academic-content a{
     font-size: 20px;
-    border: 1px solid tomato;
+   
     display: block;
-    background: tomato;
+  
     color: #fff;
     padding: 5px 10px;
     border-radius: 9px;
