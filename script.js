@@ -48,6 +48,25 @@ $(document).ready(function() {
         loop: true
     });
 
+    
+    // ========toggle menu-btn script======
+$('.menu-btn').click(function(){
+    $('.navbar .menu').toggleClass("active");
+    $('.menu-btn i').toggleClass("active");
+})
+
+// =========toggle academic button============
+$('#bsc').click(function () {
+//    $('.academic .academic-content .bsc').slideToggle("slow"); 
+   $('.academic .academic-content .bs').addClass('.bsc').slideToggle("slow"); 
+});
+$('#diploma').click(function () {
+    $('.academic .academic-content .dip').addClass('.diploma').slideToggle("slow");  
+ });
+ $('#ssc').click(function () {
+    $('.academic .academic-content .ss').addClass('.ssc').slideToggle("slow"); 
+ });
+ 
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
